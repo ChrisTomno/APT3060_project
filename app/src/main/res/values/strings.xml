@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Class Project</string>
+
+    <string name="card_personal_details">Personal Details</string>
+    <string name="et_full_name">Full Name</string>
+    <string name="et_id_no">ID Number</string>
+    <string name="et_email">Email</string>
+
+    <string name="card_academic_details">Academic Details</string>
+    <string name="et_reg_no">Reg no.</string>
+    <string name="et_course">Course</string>
+    <string name="et_department">Department</string>
+</resources>
