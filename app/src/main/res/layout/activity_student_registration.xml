@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAF2FB"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STUDENT REGISTRATION"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Full Names"
+            android:textStyle="normal"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/textFullNames"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your full names"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID Number"
+            android:textStyle="normal"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/textIDNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your ID number"
+            android:inputType="number"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registration Number"
+            android:textStyle="normal"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/textRegistrationNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter registration number"
+            android:inputType="text"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textStyle="normal"
+            android:textSize="20sp"/>
+
+        <RadioGroup
+            android:id="@+id/radioGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15dp">
+
+            <RadioButton
+                android:id="@+id/radioMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"/>
+
+            <RadioButton
+                android:id="@+id/radioFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course"
+            android:textStyle="normal"
+            android:textSize="20sp"/>
+
+        <Spinner
+            android:id="@+id/spinnerCourse"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="15dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Department"
+            android:textStyle="normal"
+            android:textSize="20sp"/>
+
+        <Spinner
+            android:id="@+id/spinnerDepartment"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="25dp"/>
+
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="REGISTER"
+            android:textSize="17sp"
+            android:textStyle="normal"/>
+
+    </LinearLayout>
+
+</ScrollView>
