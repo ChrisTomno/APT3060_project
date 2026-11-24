@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:id="@+id/main"
+    tools:context=".HostelActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="316dp"
+            android:layout_height="51dp"
+            android:text="Hostel"
+            android:textAlignment="center"
+            android:textColor="#6650A3"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID Number"
+            android:textStyle="normal"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/textIDNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your ID number"
+            android:inputType="number"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Hostel Location"
+            android:textStyle="normal"
+            android:textSize="20sp"/>
+
+        <Spinner
+            android:id="@+id/spinnerHostelLocation"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Room_type"
+            android:textStyle="normal"
+            android:textSize="20sp"/>
+
+        <Spinner
+            android:id="@+id/spinnerRoomType"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Choice"
+            android:textStyle="normal"
+            android:textSize="20sp"/>
+
+        <RadioGroup
+            android:id="@+id/radioSharable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/Sharable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sharable" />
+
+            <RadioButton
+                android:id="@+id/NotSharable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:text="non-sharable" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnSaveHostel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="Save" />
+
+    </LinearLayout>
+</ScrollView>
