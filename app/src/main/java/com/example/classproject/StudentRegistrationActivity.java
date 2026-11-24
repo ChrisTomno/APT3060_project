@@ -105,7 +105,6 @@ public class StudentRegistrationActivity extends AppCompatActivity {
             student.put("gender", gender);
             student.put("course", course);
             student.put("department", department);
-            student.put("paymentStatus", "PENDING");
 
             buttonRegister.setEnabled(false);
 

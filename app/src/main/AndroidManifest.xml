@@ -14,6 +14,8 @@
         <activity
             android:name=".StudentRegistrationActivity"
             android:exported="false" />
+        <activity android:name=".HostelActivity"
+            android:exported="false"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
